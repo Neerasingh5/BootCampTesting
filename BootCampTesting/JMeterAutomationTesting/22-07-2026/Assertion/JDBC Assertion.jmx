@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request">
+      <stringProp name="dataSource">Test</stringProp>
+      <stringProp name="query">SELECT * FROM seleniumautomation.book_detl;</stringProp>
+      <stringProp name="queryArguments"></stringProp>
+      <stringProp name="queryArgumentsTypes"></stringProp>
+      <stringProp name="queryTimeout"></stringProp>
+      <stringProp name="queryType">Select Statement</stringProp>
+      <stringProp name="resultSetHandler">Store as String</stringProp>
+      <stringProp name="resultSetMaxRows"></stringProp>
+      <stringProp name="resultVariable"></stringProp>
+      <stringProp name="variableNames"></stringProp>
+    </JDBCSampler>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
